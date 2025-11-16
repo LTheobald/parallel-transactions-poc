@@ -1,0 +1,26 @@
+# Build output
+target/
+build/
+out/
+bin/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Gradle
+.gradle/
+
+# Maven
+dependency-reduced-pom.xml
+
