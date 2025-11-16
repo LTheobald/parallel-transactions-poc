@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "PostAuthEvent",
+  "namespace": "com.example.avro",
+  "fields": [
+    { "name": "transactionId", "type": "string" },
+    { "name": "notificationType", "type": "string" },
+    { "name": "status", "type": "string" },
+    { "name": "createdAt", "type": "string" }
+  ]
+}
+
