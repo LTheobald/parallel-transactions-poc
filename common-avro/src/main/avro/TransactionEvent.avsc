@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "TransactionEvent",
+  "namespace": "com.example.avro",
+  "fields": [
+    { "name": "transactionId", "type": "string" },
+    { "name": "amount", "type": "double" },
+    { "name": "currency", "type": "string" },
+    { "name": "merchantId", "type": "string" },
+    { "name": "merchantCategoryCode", "type": "string" },
+    { "name": "cardToken", "type": "string" },
+    { "name": "securityStatus", "type": ["null", "string"], "default": null },
+    { "name": "fraudStatus", "type": ["null", "string"], "default": null },
+    { "name": "merchantLoopStatus", "type": ["null", "string"], "default": null },
+    { "name": "createdAt", "type": "string" }
+  ]
+}
+

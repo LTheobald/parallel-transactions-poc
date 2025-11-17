@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "DecisionEvent",
+  "namespace": "com.example.avro",
+  "fields": [
+    { "name": "transactionId", "type": "string" },
+    { "name": "decision", "type": "string" },
+    { "name": "authorisationCode", "type": ["null", "string"], "default": null },
+    { "name": "reasonCode", "type": ["null", "string"], "default": null },
+    { "name": "createdAt", "type": "string" }
+  ]
+}
+
